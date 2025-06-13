@@ -15,7 +15,7 @@
                 
              
                  url.startsWith('http://') && !url.startsWith('https://')) {
-                    url = 'https://www.' + url;
+                    url = 'https://' + url;
             
                 
                 addLink(name, url);
