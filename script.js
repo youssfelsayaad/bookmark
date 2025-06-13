@@ -14,7 +14,8 @@
                 let url = document.getElementById('linkUrl').value.trim();
                 
              
-                 
+                 url.startsWith('http://') && !url.startsWith('https://')) {
+                    url = 'https://www.' + url;
             
                 
                 addLink(name, url);
