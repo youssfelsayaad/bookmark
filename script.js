@@ -13,8 +13,8 @@
                 const name = document.getElementById('linkName').value.trim();
                 let url = document.getElementById('linkUrl').value.trim();
                 
-                // Add https:// if not present
-                    url = 'https://www.' + url;
+             
+                 
             
                 
                 addLink(name, url);
