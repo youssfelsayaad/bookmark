@@ -13,10 +13,10 @@
                 const name = document.getElementById('linkName').value.trim();
                 let url = document.getElementById('linkUrl').value.trim();
                 
-             
-                 url.startsWith('http://') && !url.startsWith('https://')) {
-                    url = 'https://' + url;
-            
+                // Add https:// if not present
+                if (!url.startsWith('http://') && !url.startsWith('https://')) {
+                    url = 'https://www.' + url;
+                }
                 
                 addLink(name, url);
                 
