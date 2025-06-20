@@ -15,7 +15,7 @@ body {
   height: 30%;
   width: 25%;
   left: 50%;
-  bottom: 25px;
+  bottom: 5px;
   background-color: #fec260;
   transition: all 350ms;
   z-index: -1;
